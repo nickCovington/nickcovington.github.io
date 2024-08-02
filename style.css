@@ -4,7 +4,8 @@
 
 
 body {
-    background-color: #EDEADE;
+    color: white;
+    background-color: black;
     margin: 0px;
 }
 
@@ -28,7 +29,8 @@ body {
 .nv-btn {
     background-color: lightgrey;
     border: transparent;
-    border-radius: 5px 30px;
+    /* border-radius: 5px 30px; */
+    border-radius: 5px;
 
     height: 30px;
     width: 150px;
@@ -47,12 +49,14 @@ body {
 .nv-btn:hover,
 .nv-log:hover {
     color: white;
-    background-color: #673147;
-    box-shadow: 10px 10px 25px black;
+    background-color: #702963;
+    box-shadow: 5px 5px 12px black;
+    cursor: pointer;
 }
 
 .body-container {
     margin: auto;
     width: 33%;
-    align-items: center;
+    text-align: center;
 }
+
